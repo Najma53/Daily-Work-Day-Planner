@@ -15,10 +15,11 @@ textarea {
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
+  background-color: rgb(246, 184, 223);
+  color: rgb(107, 2, 100);
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid rgb(187, 61, 149);
+  border-top: 10px solid rgb(187, 61, 149);
 }
 
 .description {
