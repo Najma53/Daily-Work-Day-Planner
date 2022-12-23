@@ -16,8 +16,10 @@ function init() {
     $('.time-block').each(function () {
         var dailyAppointmenthHour = $(this).attr("id").split("t")[1];
         //console.log("currentHour " + currentHour)
-        //console.log("schedulehHour " + schedulehHour)
+        //console.log("dailyAppointmenthHour " + dailyAppointmentHour)
+
 //this will add different colors to the time block using CSS
+        //without this the textarea is just empty white space and so is the time block
         if (dailyAppointmenthHour < currentHour) {
             $(this).addClass("past");
         }
